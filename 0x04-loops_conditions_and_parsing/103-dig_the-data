@@ -1,3 +1,0 @@
-#!/bin/bash
-# Extract IP and status code from log file
-awk '{print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn |column -t
