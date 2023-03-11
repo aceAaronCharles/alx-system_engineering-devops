@@ -443,4 +443,7 @@ I started `7-highlander` in Terminal #0 and then run `8-beheaded_process` in
 -   GitHub repository: `alx-system_engineering-devops`
 -   Directory: `0x05-processes_and_signals`
 -   File: `8-beheaded_process`
+<<<<<<< HEAD
 
+=======
+>>>>>>> e1c2ac55e3771475f5d070ed1f1d3bad985d331d

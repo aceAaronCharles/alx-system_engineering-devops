@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
-# Displays information about the `school` file. 
+# displays information about the School file
 
+#!/usr/bin/env bash
+# Displays information about the file `school`.
+
+#1. The first if statement checks to see if the file “school” exists.
+#2. If it does, it checks to see if the file is empty.
+#3. If it is not empty, it prints a message saying that the file is not empty.
+#4. If it is empty, it prints a message saying that the file is empty.
+#5. If the file does not exist, it prints a message saying that the file does not exist.
 if [ -e "school" ]
 then
   echo "school file exists"

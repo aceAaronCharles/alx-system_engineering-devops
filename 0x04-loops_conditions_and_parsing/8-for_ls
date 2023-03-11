@@ -1,8 +1,14 @@
 #!/usr/bin/env bash
-# Displays the contents of the current directory in list format.
-#   Only displays the part of the name after the first dash. 
+# displays the content of the current directory in a certain format
 
+#1. The first line of the script uses the “find” command to search for files in the current directory.
+#2. The second line of the script uses the “cut” command to extract the second field from the output of the “find” command.
+#3. The third line of the script uses the “for” command to iterate over the list of files in the current directory.
+#4. The fourth line of the script uses the “find” command to search for files in the current directory.
+#5. The fifth line of the script uses the “cut” command to extract the second field from the output of the “find” command.
+#6. The sixth line of the script uses the “for” command to iterate over the list of files in the current directory.
 list=$(ls)
-for i in $list; do
-  echo "$i" | cut -d '-' -f2
+for file in $list
+do
+    find "$file" | cut -d- -f2
 done

@@ -5,6 +5,7 @@
 #   Displays "Buzz" when the number is a multiple of 5.
 #   Otherwise, displays the number.
 
+# It prints out the numbers 1 to 100, replacing the number with "Fizz" if it is divisible by 3, "Buzz" if it is divisible by 5, and "FizzBuzz" if it is divisible by both 3 and 5.
 for num in {1..100}
 do
   if (( num % 3 == 0 && num % 5 == 0 ))
