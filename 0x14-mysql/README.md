@@ -1,7 +1,7 @@
 0x14. MySQL
 ===========
 
-- By Sagebeme 
+- By Aaron0Chillz 
 - Weight: 1
 
 Concepts
