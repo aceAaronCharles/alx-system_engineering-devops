@@ -1,7 +1,8 @@
+#!/usr/bin/python3
+'''A script that gathers employee name completed
+tasks and total number of tasks from an API
+'''
 
-#!/usr/bin/python3 
-
-"""this code checks for employees todo list and if it has beeen achieved"""
 import re
 import requests
 import sys
@@ -25,5 +26,7 @@ if __name__ == '__main__':
                 )
             )
             if len(completed_tasks) > 0:
+                for task in completed_tasks:
+                for task in completed_tasks:
                 for task in completed_tasks:
                     print('\t {}'.format(task.get('title')))
