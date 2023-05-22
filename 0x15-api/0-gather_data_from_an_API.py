@@ -2,8 +2,11 @@
 #!/usr/bin/python3 
 
 """this code checks for employees todo list and if it has beeen achieved"""
-
+import re
 import requests
+import sys
+
+REST_API = "https://jsonplaceholder.typicode.com"
 
 def get_employee_todo_progress(employee_id):
     base_url = 'https://jsonplaceholder.typicode.com'
