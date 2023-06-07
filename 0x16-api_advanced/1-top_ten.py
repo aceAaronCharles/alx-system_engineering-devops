@@ -13,7 +13,7 @@ def top_ten(subreddit):
         subreddit (str): The name of the subreddit.
     """
     url = f"https://www.reddit.com/r/{subreddit}/hot.json"
-    headers = {"User-Agent": "Aaron0Chillz"}
+    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "}
     response = requests.get(url, headers=headers, allow_redirects=False)
 
     if response.status_code == 200:
