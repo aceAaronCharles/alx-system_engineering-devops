@@ -1,4 +1,4 @@
-#!/usr/bash/env
+#!/usr/bash/env bash
 #I use curl to query web-01.holberton.online, and since my firewall is forwarding the ports, I get a HTTP 200 response on port 80/TCP and also on port 8080/TCP.
 sudo nano /etc/nginx/sites-enabled/default
 sudo systemctl restart nginx
