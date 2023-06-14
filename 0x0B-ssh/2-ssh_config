@@ -1,8 +1,8 @@
 # SSH Config File
 #
 Host Ace-01
-        HostName 52.175.166.7
+        HostName 18.207.139.89
         User Ubuntu
-        IdentityFile /c/Users/Aaron0Chillz/.ssh
+        IdentityFile /c/Users/ace/.ssh
         PubkeyAuthentication yes
         PasswordAuthentication no
